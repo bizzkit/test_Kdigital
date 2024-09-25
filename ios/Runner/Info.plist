@@ -43,5 +43,14 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSDocumentsFolderUsageDescription</key>
+	    <string>????</string>
+	<key>NSFileProtectionCompleteUntilFirstUserAuthentication</key>
+	<string>NSFileProtectionCompleteUntilFirstUserAuthentication</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

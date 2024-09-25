@@ -26,3 +26,23 @@ class SuccessfulMainPageState extends MainPageState {
   @override
   List<Object> get props => [characters];
 }
+
+class LoadingImageState extends MainPageState {
+  @override
+  List<Object> get props => [];
+}
+
+class UnSuccessfulImageLoadState extends MainPageState {
+  @override
+  List<Object> get props => [];
+}
+
+class ImageLoadedState extends MainPageState {
+  final String imageUrl;
+
+  ImageLoadedState(this.imageUrl);
+
+  @override
+  List<Object> get props => [imageUrl];
+}
+
